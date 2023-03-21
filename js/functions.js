@@ -2,17 +2,17 @@ function getLength(text, length) {
   let answer;
   if (text.length <= length){
   answer = 'true';
-  }
+}
   else {
     answer = 'false';
-  }
-console.log(answer);
+    }
+return(answer);
 }
 function palindrome(str) {
   str = str
     .toString()
     .toLowerCase()
-    .replace(/\s/g, "");
+    .replace(/\s/g, '');
       return str === str.split("").reverse().join("");
 }
 
