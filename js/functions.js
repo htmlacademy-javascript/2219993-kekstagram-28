@@ -13,7 +13,7 @@ function palindrome(str) {
     .toString()
     .toLowerCase()
     .replace(/\s/g, "");
-  return str === str.split("").reverse().join("");
+      return str === str.split("").reverse().join("");
 }
 
 function takeDigits(str) {
