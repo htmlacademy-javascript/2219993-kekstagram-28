@@ -1,8 +1,8 @@
 function getLength(text, length) {
   let answer;
   if (text.length <= length){
-  answer = 'true';
-}
+    answer = 'true';
+  }
   else {
     answer = 'false';
     }
